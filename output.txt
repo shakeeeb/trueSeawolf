@@ -1,0 +1,3 @@
+('stmt', ('fxndef', 'fact', ['n'], ('stmt', ('ifelse', ('<', ('get', 'n'), 1), ('stmt', ('ret', 1), None), ('stmt', ('ret', ('*', ('get', 'n'), ('fxncall', 'fact', []))), None)), None)), ('stmt', ('stmt', ('print', ('fxncall', 'fact', [])), None), None))
+('fxndef', 'fact', ['n'], ('stmt', ('ifelse', ('<', ('get', 'n'), 1), ('stmt', ('ret', 1), None), ('stmt', ('ret', ('*', ('get', 'n'), ('fxncall', 'fact', []))), None)), None))
+Semantic error unsupported operand type(s) for -: 'list' and 'int'
